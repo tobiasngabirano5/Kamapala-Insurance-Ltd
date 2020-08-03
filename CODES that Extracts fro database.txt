@@ -1,0 +1,43 @@
+<br><form action="claims.php" method="post">
+<button type="submit" name="view-claimers">VIEW CLAIMERS</button>
+</form>
+
+<?php
+
+if (isset($_POST['view-claimers'])) {
+$server = "localhost";
+$dbUsername ="root";
+$dbpasswd = "";
+$dataBase = "kinsurance";
+$conn = mysqli_connect($server, $dbUsername, $dbpasswd, $dataBase);
+echo '<table>
+<tr>
+<td class="tite">Client ID</td><td class="tite">Client Name</td><td class="tite">Client email</td>
+</tr>';
+if (!$conn) {
+die("connection to database failed!");
+
+}
+
+if ($conn->connect_error) {
+  die("Failed to connect!..".$conn->connection_error);
+}
+$sql = "SELECT u_id, fname, user_email FROM users";
+$results = $conn->query($sql);
+
+if ($results->num_rows > 0) {
+    while ($row = $results-> fetch_assoc()) {
+       echo"<tr><td>" .$row['u_id'] ."</td><td>" .$row['fname'] ."</td><td>" .$row['user_email'] ."</td></tr>";
+      
+    }
+    echo"</table>";
+     echo" <a href='claims.php'><button>CLOSE</button></a>";
+}
+else{
+    echo"No Results form table!.";
+}
+}
+
+?>
+</table>
+</form>

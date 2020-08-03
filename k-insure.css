@@ -1,0 +1,209 @@
+
+body{
+    padding-top: 40px;
+}
+.cen{
+    text-align: center;
+}
+img{
+    width: 50px;
+   align-self: left;
+}
+.log-form{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input{
+    width: 200px;
+    background-color: rgba(128, 128, 231, 0.11);
+    height: 17px;
+    border-radius: 10px;
+}
+.log-btn{
+    width: 100px;
+    height: 22px;
+    background-color: rgb(20, 148, 223);
+}
+.log-btn2{
+      width: 200px;
+    height: 25px;
+    background-color: brown;
+    color: aliceblue
+}
+.heada{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    padding: 2%;
+    padding-left: 0%;
+   background-color: blue;
+}
+.heada ol{
+    display: flex;
+    background-color: blue;
+}
+.heada ol li{
+background-color: blue;
+list-style: none;
+text-decoration: none;
+color: aliceblue;
+}
+.heada ol li a{
+background-color: blue;
+list-style: none;
+font-size: 20px;
+text-decoration: none;
+color: aliceblue;
+padding-right: 10px;
+font-family:  'Times New Roman';
+}
+.empty{
+    width: 20%;
+}
+.img-pon{
+    padding-right: 10px;
+}
+.sas{
+    background-color: rgba(250, 235, 215, 0.808);
+    color: rgb(7, 15, 136);
+    text-align: center;
+}
+.sas-btn{
+ height: 23px;
+ background-color: rgb(204, 9, 9);
+ color: rgb(253, 250, 250);
+}
+.Main-Page{
+display: flex;
+}
+.Main-Page .img-div{
+padding: 3%;
+width: 65%;
+background-image: url(bus.jpg);
+background-size: cover;
+}
+h2{
+    color: rgb(240, 227, 111);
+    text-align: center;
+    font-size: 15px;
+    width: 350px;
+    background-color: rgb(38, 13, 199);
+}
+
+.side-img-div{
+padding: 1%;
+}
+.side-img-div{
+ background-color: rgb(230, 94, 15);
+ width: 33%;
+}
+.robus{
+    background-color: rgb(102, 116, 196);
+    padding: 5px;
+
+}
+.robus form{
+    border: darkslategrey solid 1px;
+border-radius: 10px;
+padding: 4%;
+text-align: center;
+}
+.robus form input{
+    background-color: rgba(243, 236, 236, 0.966);
+    color: rgb(4, 3, 53);
+    text-align: center;
+}
+.robus form button{
+    background-color: firebrick;
+    color: floralwhite;
+    border: 1px;
+    border-radius: 3px;
+    padding: 2px;
+}
+.robus form b{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 20px;
+color: rgb(223, 19, 19);
+}
+.robus .bj{
+width: 100%;
+height: 300px;
+}
+hr{
+    height: 1.5px;
+    background-color: rgb(218, 70, 33);
+}
+.bottom-div{
+    background-color: blue;
+    display: flex;
+    padding-left: 5%;
+}
+.section-1{
+    background-color: blue;
+    width: 250px;
+    padding-left: 10px;
+    text-align: left;
+}
+.section-1 ul .s1{
+font-weight: 100;
+color: rgb(243, 142, 112);
+background-color: blue;
+}
+.section-1 ul li{
+list-style: none;
+padding-top: 2px;
+background-color: blue;
+}
+.section-1 li a{
+text-decoration: none;
+color: rgb(252, 246, 246);
+background-color: blue;
+}
+.Main-Page .divic{
+    background-color: azure;
+    text-align: left;
+    color: blue;
+    padding-left: 3%;
+    width: 50%;
+}
+.Main-Page .divic li{
+    background-color: azure;
+    text-align: left;
+    font-weight: 800;
+    line-height: 30px;
+}
+.dis{
+    width: 50%;
+    padding: 2%;
+    text-align: center;
+}
+.dis img{
+    width: 70%;
+    padding: 2%;
+    text-align: center;
+}
+table{
+    width: 90%;
+    background-color: burlywood;
+    color: black;
+}
+.tite{
+    background-color: blue;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+}
+tr td{
+    border: 1px solid black;
+    width: 20%;
+    padding: 2%;
+}
+.Main-Page2{
+    display: flex;
+}
+.Main-Page2 div{
+    width: 33%;
+    padding: 2%;
+}
+.Main-Page2 div img{
+    width: 90%;
+}
